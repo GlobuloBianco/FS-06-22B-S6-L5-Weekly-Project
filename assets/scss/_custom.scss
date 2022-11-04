@@ -1,0 +1,20 @@
+$skypink: #ffb6c13c;
+$onda: #f5f5f5;
+
+@mixin color ($stringa, $valore) {
+    #{$stringa}-color: $valore;
+}
+
+.bg-poison { @include color ('background', $indigo); }
+.border-skypink { @include color ('border', $skypink); }
+.bg-onda { @include color ('background', $onda); }
+
+#intro {
+    background-image: url("../img/pexels-aleksandar-pasaric-325185.jpg");
+    background-position-y: -300px;
+    padding: 2em 2em 15em 2em;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FD2751' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

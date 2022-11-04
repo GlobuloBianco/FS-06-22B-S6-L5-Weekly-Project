@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap & Sass</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- ----------------------Navbar--------------------- -->
+        <nav class="navbar navbar-expand-lg bg-poison bg-gradient">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white ps-3" href="#">BootPro</a>
+                <button class="navbar-toggler border-skypink" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end ps-3" id="navbarNav">
+                    <ul class="navbar-nav d-lg-flex align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">Contatti</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-link text-danger fs-3 bi bi-twitter"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-link text-danger fs-3 bi bi-twitch"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-link text-danger fs-3 bi bi-discord"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="nav-link text-danger fs-3 bi bi-whatsapp"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- ----------------------Main Sfondo--------------------- -->
+        <div id="intro">
+            <h1 class="display-3">La nostra passione si erge sopra ogni cosa</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud..</p>
+            <button type="button" class="btn btn-primary bg-poison">Iscriviti alla lista contatti</button>
+        </div>
+        <!-- ----------------------3 IconText--------------------- -->
+        <section class="text-center m-0 p-4 bg-onda d-lg-flex">
+            <div class="container">
+                <i class=" fs-1 bi bi-briefcase-fill"></i>
+                <h2 class="display-6">Lorem ipsum</h2>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+            <div class="container">
+                <i class=" fs-1 bi bi-person-plus-fill"></i>
+                <h2 class="display-6">Lorem ipsum</h2>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+            <div class="container">
+                <i class=" fs-1 bi bi-binoculars-fill"></i>
+                <h2 class="display-6">Lorem ipsum</h2>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f5f5f5" fill-opacity="1"
+                d="M0,96L60,90.7C120,85,240,75,360,69.3C480,64,600,64,720,90.7C840,117,960,171,1080,170.7C1200,171,1320,117,1380,90.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <!-- ----------------------PartnerShip--------------------- -->
+        <section class="text-center d-lg">
+            <div class="container my-5">
+                <h2 class="display-3">Partnerships</h2>
+            </div>
+            <div class="d-lg-flex">
+                <div class="container my-5">
+                    <img src="assets/img/company-1.png" width="130px" alt="..">
+                </div>
+                <div class="container my-5">
+                    <img src="assets/img/company-2.png" width="130px" alt="..">
+                </div>
+                <div class="container my-5">
+                    <img src="assets/img/company-3.png" width="130px" alt="..">
+                </div>
+                <div class="container my-5">
+                    <img src="assets/img/company-4.png" width="130px" alt="..">
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------Onda--------------------- -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f5f5f5" fill-opacity="1"
+                d="M0,96L60,90.7C120,85,240,75,360,69.3C480,64,600,64,720,90.7C840,117,960,171,1080,170.7C1200,171,1320,117,1380,90.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f5f5f5" fill-opacity="1"
+                d="M0,192L60,197.3C120,203,240,213,360,192C480,171,600,117,720,112C840,107,960,149,1080,149.3C1200,149,1320,107,1380,85.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <!-- ----------------------Opinioni--------------------- -->
+        <section class="text-center mb-5">
+            <h2 class="display-3 my-5">Le opinioni dei nostri clienti</h2>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="fs-4 w-50 mx-auto"><i class="fs-1 text-danger bi bi-chat-right-quote"></i> Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <img src="/assets/img/reviews/reviews-1.jpg" class="rounded-circle" alt="..." width="80px">
+                        <p class="h3 my-4">Jamie Batty</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="fs-4 w-50 mx-auto"><i class="fs-1 text-danger bi bi-chat-right-quote"></i> Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <img src="/assets/img/reviews/reviews-2.jpg" class="rounded-circle" alt="..." width="80px">
+                        <p class="h3 my-4">Samantha Loret</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="fs-4 w-50 mx-auto"><i class="fs-1 text-danger bi bi-chat-right-quote"></i> Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <img src="/assets/img/reviews/reviews-3.jpg" class="rounded-circle" alt="..." width="80px">
+                        <p class="h3 my-4">Mike Winter</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ----------------------Footer--------------------- -->
+    <footer class="text-center text-white bg-poison bg-gradient">
+        <div class="d-lg-flex p-lg-5">
+            <p class=" fs-2 pt-5 pb-4 p-lg-5" href="#">BootPro</p>
+            <div class="container">
+                <p class=" fs-2" href="#">Mission & Vision</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="container">
+                <p class=" fs-2 " href="#">Dove siamo</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="container">
+                <p class=" fs-2 " href="#">Contatti</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum</p>
+            </div>
+        </div>
+        <div class="pt-4 pb-1">
+            <p>&copy; Alessio per Epicode School</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
